@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/item_album">
+
+    <fragment
+        android:id="@+id/item_album"
+        android:name="com.example.android_gallerymanager.fragment.AlbumFragment"
+        android:label="Album"
+        tools:layout="@layout/fragment_album" />
+
+    <fragment
+        android:id="@+id/item_all_media"
+        android:name="com.example.android_gallerymanager.fragment.AllMediaFragment"
+        android:label="All Media"
+        tools:layout="@layout/fragment_all_media" />
+
+    <fragment
+        android:id="@+id/item_time_line"
+        android:name="com.example.android_gallerymanager.fragment.TimeLineFragment"
+        android:label="Time Line"
+        tools:layout="@layout/fragment_time_line" />
+</navigation>

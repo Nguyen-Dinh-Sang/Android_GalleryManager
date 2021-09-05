@@ -11,7 +11,7 @@
       android:layout_height="100dp">
   </ImageView>
   <TextView
-      android:layout_marginTop="20dp"
+      android:layout_marginTop="200dp"
       android:text="Android_GalleryManager"
       android:textStyle="bold"
       android:textSize="25dp"
