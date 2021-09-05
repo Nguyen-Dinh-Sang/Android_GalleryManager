@@ -1,4 +1,4 @@
-package com.example.android_gallerymanager;
+package com.example.android_gallerymanager.activity;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +9,8 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
+
+import com.example.android_gallerymanager.R;
 
 public class SplashScreenActivity extends AppCompatActivity {
 
