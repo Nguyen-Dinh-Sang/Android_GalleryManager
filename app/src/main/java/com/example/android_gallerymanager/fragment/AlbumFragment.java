@@ -21,8 +21,8 @@ import java.util.List;
 
 public class AlbumFragment extends Fragment {
     private RecyclerView recyclerView;
-    List<Album> albumList = new ArrayList<Album>();
-    AlbumAdapter albumAdapter;
+    private List<Album> albumList = new ArrayList<Album>();
+    private AlbumAdapter albumAdapter;
 
     private View view;
 
